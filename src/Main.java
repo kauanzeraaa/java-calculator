@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Digite o primeiro número: ");
-        double numero1 = scanner.nextDouble();
+        double numero1 = sc.nextDouble();
 
         System.out.print("Digite o segundo número: ");
-        double numero2 = scanner.nextDouble();
+        double numero2 = sc.nextDouble();
 
         Main calculator = new Main();
 
