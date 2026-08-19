@@ -34,5 +34,5 @@ jobs:
 
       # Executa o programa
       - name: Executar
-        run: java Main
+        run: java -cp src Main
 
