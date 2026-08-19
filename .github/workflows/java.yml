@@ -30,7 +30,7 @@ jobs:
 
       # Compila o programa
       - name: Compilar
-        run: javac Main.java
+        run: javac src/Main.java
 
       # Executa o programa
       - name: Executar
