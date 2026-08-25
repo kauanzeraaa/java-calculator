@@ -1,9 +1,9 @@
-public class Main {
+public class Calculadora {
     public static void main(String[] args) throws Exception {
         double numero1 = 25.6;
         double numero2 = 12.8;
 
-        Main calculator = new Main();
+        Calculadora calculator = new Calculadora();
 
         System.out.println("Soma: " + calculator.somar(numero1, numero2));
         System.out.println("Subtração: " + calculator.subtrair(numero1, numero2));
